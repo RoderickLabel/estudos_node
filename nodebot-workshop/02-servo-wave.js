@@ -8,7 +8,7 @@ var board = new five.Board()
  */
 board.on("ready", function() {	
 	
-	servo = new five.Servo(9);	
+    servo = new five.Servo(9);	
 
     servo.sweep({
         range: [0, 180]
